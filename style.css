@@ -1,0 +1,25 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+button{
+    height: 10%;
+    margin: auto;
+    margin-bottom: auto;
+    text-align: center;
+    width: 20%;
+    font-size: 17px;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color:black;
+    color: azure;
+    transition: background-color, 0.5s;
+}
+
+button:hover{
+    color: black;
+    background-color: azure;
+    border: 2px solid black;
+}
+
