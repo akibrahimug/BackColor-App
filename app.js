@@ -8,7 +8,7 @@ button.addEventListener('click', e => {
    const  color =  Math.floor(Math.random() * colors.length)
     body.style.backgroundColor = colors[color];
     span.textContent = colors[color].toUpperCase()
-    span.style.fontSize = '35px'
+    span.style.fontSize = '25px'
     parah.textContent = `The Current color is: `
     parah.appendChild(span)
 })
