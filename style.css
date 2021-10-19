@@ -1,11 +1,13 @@
 .wrapper{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     height: 100vh;
 }
 button{
     height: 10%;
     margin: auto;
+    margin-top: 0;
     margin-bottom: auto;
     text-align: center;
     width: 20%;
@@ -15,6 +17,14 @@ button{
     background-color:black;
     color: azure;
     transition: background-color, 0.5s;
+}
+
+p{
+    height: 5%;
+    margin: auto;
+    margin-bottom:20px;
+    text-align: center;
+    font-size: 20px;
 }
 
 button:hover{
